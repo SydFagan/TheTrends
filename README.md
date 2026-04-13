@@ -15,7 +15,7 @@ We are developing our dashboard for our analytics to be displayed upon.
 
 ## File Structure ##
 
-|wordpress/
+**| **wordpress/
 ── wp-content/
 ── themes/
  the-trends/
@@ -27,7 +27,7 @@ index.php
 single.php
 analytics.js
 
-│plugins/
+**│**plugins/
 custom-analytics/
 custom-analytics.php
 
