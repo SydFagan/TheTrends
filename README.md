@@ -16,21 +16,20 @@ We are developing our dashboard for our analytics to be displayed upon.
 ## File Structure ##
 
 wordpress/
-│
-├── wp-content/
-│   ├── themes/
-│   │   outline-editorial/
-│   │       ├── style.css
-│   │       ├── functions.php
-│   │       ├── header.php
-│   │       ├── footer.php
-│   │       ├── index.php
-│   │       ├── single.php
-│   │       └── analytics.js
-│   │
+── wp-content/
+── themes/
+ outline-editorial/
+style.css
+functions.php
+header.php
+footer.php
+index.php
+single.php
+analytics.js
+
 │   ├── plugins/
-│   │    custom-analytics/
-│   │      custom-analytics.php
+custom-analytics/
+custom-analytics.php
 │
 ├── wp-admin/
 ├── wp-includes/
