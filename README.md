@@ -2,7 +2,7 @@
 
 ## The Bare Bones ##
 
-Right now we are working towards adding pages, posts and different forms of media to our WP. Experimenting with coloration, where public analytics may be placed an developing our data.
+Right now we are working towards adding pages, posts and different forms of media to our WP. Experimenting with coloration, where public analytics may be placed an developing our data. Organizing the layout so that is easily readable and attractive to our Users.
 
 ## Additons ##
 
