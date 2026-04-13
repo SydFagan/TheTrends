@@ -15,7 +15,7 @@ We are developing our dashboard for our analytics to be displayed upon.
 
 ## File Structure ##
 
-**| **wordpress/
+**|**wordpress/
 ── wp-content/
 ── themes/
  the-trends/
