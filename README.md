@@ -18,7 +18,7 @@ We are developing our dashboard for our analytics to be displayed upon.
 wordpress/
 ── wp-content/
 ── themes/
- outline-editorial/
+ the-trends/
 style.css
 functions.php
 header.php
