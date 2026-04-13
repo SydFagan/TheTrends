@@ -19,7 +19,7 @@ wordpress/
 │
 ├── wp-content/
 │   ├── themes/
-│   │   └── outline-editorial/
+│   │   outline-editorial/
 │   │       ├── style.css
 │   │       ├── functions.php
 │   │       ├── header.php
@@ -29,8 +29,8 @@ wordpress/
 │   │       └── analytics.js
 │   │
 │   ├── plugins/
-│   │   └── custom-analytics/
-│   │       └── custom-analytics.php
+│   │    custom-analytics/
+│   │      custom-analytics.php
 │
 ├── wp-admin/
 ├── wp-includes/
