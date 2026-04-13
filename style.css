@@ -1,0 +1,79 @@
+/*
+Theme Name: Outline Inspired Editorial
+*/
+
+:root {
+  --bg: #ffffff;
+  --text: #111111;
+  --accent: #ff2e63;
+  --accent2: #08d9d6;
+  --accent3: #f9ed69;
+}
+
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  border-bottom: 3px solid var(--accent);
+}
+
+header h1 {
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: -1px;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--text);
+}
+
+nav a:hover {
+  color: var(--accent);
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  padding: 40px;
+}
+
+article {
+  border: 3px solid black;
+  padding: 20px;
+  transition: 0.2s;
+  position: relative;
+}
+
+article:nth-child(3n) {
+  background: var(--accent3);
+}
+
+article:nth-child(3n+1) {
+  background: var(--accent2);
+}
+
+article:nth-child(3n+2) {
+  background: var(--accent);
+  color: white;
+}
+
+article:hover {
+  transform: scale(1.02);
+}
+
+article h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
